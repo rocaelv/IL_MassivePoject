@@ -363,6 +363,7 @@ div.item {
     border-style: solid;
     border-color: #fff;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .profile-submit :nth-child(2) {
@@ -373,6 +374,7 @@ div.item {
     border-style: solid;
     border-color: #fff;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 
@@ -850,5 +852,98 @@ div.item {
     border: #fff solid 2px;
     width: 500px;
     text-align: center;
+}
+
+
+
+/* pesanan2 */
+
+
+
+.pesanan-saya {
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border: #000 solid 2px;
+    border-radius: 5px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 5px;
+    box-shadow: 0 8px 8px 0 #a1a1a1;
+}
+
+
+.pesanan-saya-judul {
+    text-align: right;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.pesanan-saya-paket {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.pesanan-saya-paket img {
+    width: 200px;
+    height: 200px;
+}
+
+.pesanan-saya-paket-text {margin-left: -200px;}
+.pesanan-saya-paket-text-1 {margin-left: -380px;}
+
+.pesanan-saya-paket-text h1 {
+    font-size: 30px;
+}
+
+.pesanan-saya-paket-text :nth-child(2) {
+    font-size: 20px;
+}
+
+.pesanan-saya-paket-text :nth-child(3) {
+    font-size: 20px;
+    margin-top: 70px;
+    font-weight: 500;
+}
+
+.pesanan-saya-paket-text-1 h1 {
+    font-size: 30px;
+}
+
+.pesanan-saya-paket-text-1 :nth-child(2) {
+    font-size: 20px;
+}
+
+.pesanan-saya-paket-text-1 :nth-child(3) {
+    font-size: 20px;
+    margin-top: 70px;
+    font-weight: 500;
+}
+
+
+.pesanan-saya-paket-tombol {
+    margin-top: 140px;
+}
+
+.pesanan-saya-paket-tombol :nth-child(1) {
+    background-color: #FF3131;
+    padding: 5px 30px 5px 30px;
+    font-size: 20px;
+    color: #fff;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pesanan-saya-paket-tombol :nth-child(2) {
+    background-color: #4d4d4d;
+    padding: 5px 30px 5px 30px;
+    font-size: 20px;
+    color: #fff;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
