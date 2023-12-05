@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lupa Password</title>
+    <link rel="icon" href="img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+     <div class="overlay" id="overlay">
+        <div id="preload">
+            <div class="sk-folding-cube">
+                <div class="sk-cube1 sk-cube"></div>
+                <div class="sk-cube2 sk-cube"></div>
+                <div class="sk-cube4 sk-cube"></div>
+                <div class="sk-cube3 sk-cube"></div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center">
+            <form class="col-md-12">
+                <div class="AppForm shadow-lg">
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center">
+                            <div class="AppFormLeft">
+                                <h2 class="mt-5">Lupa Password?</h2>
+                                <div class="form-group position-relative mb-4">
+                                    <img src="img/lock.jpg" alt="" width="250" height="250">
+                                    <input type="text"
+                                        class="form-control border-top-0 border-right-0 border-left-0 rounded-0 shadow-none"
+                                        id="email" placeholder="Email" />
+                                    <i class="fa fa-key"></i>
+                                </div>
+
+                                <a href="email.html">
+                                <button type="button"
+                                    class="btn btn-warning btn-block shadow border-0 py-2 text-uppercase">
+                                    Masuk
+                                </button>
+                            </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div
+                                class="AppFormRight position-relative d-flex justify-content-center flex-column align-items-center text-center p-5 text-white">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script>
+    (function ($) {
+        $(document).ready(function () {
+            $('#overlay').hide();
+        });
+    })(jQuery);
+</script>
+<script>
+    function Login_() {
+        // Show the preload element
+        document.getElementById('overlay').style.display = 'block';
+
+        // Hide the preload element after 2 seconds
+        setTimeout(function () {
+            document.getElementById('overlay').style.display = 'none';
+        }, 2000);
+    }
+</script>
+</script>
+
+</html>
