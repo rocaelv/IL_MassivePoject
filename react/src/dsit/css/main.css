@@ -1,0 +1,340 @@
+*{
+    font-family: "inter", sans-serif;
+}
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #FAA20A;
+    --color-text: #231942;
+    --navbar-color: #ffffff;
+    --navbar-color-text: #000000;
+  }
+
+
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    background-color: #fff;
+    padding: 15px 0 15px 0;
+    width: 100%;
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.navbar .mx-auto input {
+    width: 600px;
+    height: 45px;
+    border: #000000 solid 1px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.navbar .mx-auto button {
+    border: none;
+    background-color: transparent;
+    margin-left: -45px;
+}
+
+.navbar .nav-link a {
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: #000000;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.navbar .nav-link a:hover{
+    border-color: var(--secondary-color);
+}
+
+.navbar .nav-link img {
+    /* width: 20px;
+    height: 20px; */
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+/* Footer */
+
+.footer {
+    margin-top: 50px;
+    box-shadow: 2px -2px 12px rgba(0, 0, 0, 0.25);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+
+
+.footer1 {
+    
+    margin: auto;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 150px 500px 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* userhome */
+
+.userhome {
+    padding-top: 20vh;
+}
+
+.userhome .header-box div {
+    margin: auto;
+}
+
+.userhome .header-box h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.userhome .header-box h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+/* style={{padding:'20px',backgroundColor:'#faa20a', borderRadius:'10px', margin:'10px 5px 10px 5px', boxShadow:'1px 10px 20px #888'}} */
+
+.userhomeatas {
+    padding: 20px;
+    background-color: #FAA20A;
+    border: #000 solid 2px;
+    border-radius: 10px;
+    margin: 10px 5px 10px 5px;
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.25);
+    transition: scale .2s;
+}
+
+.userhomeatas:hover {
+    scale: 1.1;
+}
+
+/* style={{backgroundColor:'#faa20a', marginLeft:'230px', marginBottom:'10px', borderRadius:50, padding:'5px 10px 5px 10px',border:'#000 solid 2px'}} */
+
+.userhomeatas button {
+    background-color: #FAA20A;
+    margin-left: 240px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    padding: 5px 10px 5px 10px;
+    border: #000 solid 2px;
+}
+
+
+
+
+/* padding:'20px',backgroundColor:'#fff', border:'#000 solid 2px', borderRadius:'10px', margin:'10px 5px 40px 5px' */
+.kotak {
+    padding: 20px;
+    background-color: #fff;
+    border: #000 solid 2px;
+    border-radius: 10px;
+    transition: scale .2s;
+}
+
+.kotak:hover {
+    scale: 1.1;
+}
+
+/* style={{marginLeft:'140px', backgroundColor:'#faa20a', border:'none', borderRadius:50, padding:'1px 10px 1px 10px', marginBottom:'10px'}}  */
+
+.kotak button {
+    margin-left: 140px;
+    background-color: #FAA20A;
+    border: none;
+    border-radius: 50px;
+    padding: 1px 10px 1px 10px;
+    margin-bottom: 10px;
+}
+
+/* profil */
+.profile-container {
+    padding-top: 20vh;
+}
+
+.profile-isi {
+    border: #000 solid 2px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.profile-isi input[type=text] {
+    width: 300px;
+}
+
+.profile-isi button {
+    margin: 5px 40px 40px 5px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 2px 10px 2px 10px;
+    color: #fff;
+    border: #fff solid 2px;
+}
+
+/* user catering */
+.usercatering {
+    padding-top: 20vh;
+}
+
+.usercatering button {
+    background-color: #FAA20A;
+    border: #FAA20A solid 1px;
+    border-radius: 50px;
+}
+.usercatering button:hover {
+    background-color: #996100;
+    border: #996100 solid 1px;
+    border-radius: 50px;
+}
+
+
+
+/* user detail */
+
+.detail-atas {
+    background-color: #fff;
+    margin-top: 20vh;
+    padding: 30px;
+    border-radius: 10px;
+    border: #888 solid 1px;
+    display: flex;
+}
+
+.tombolnambah {
+    display: flex;
+}
+
+.tomboltambah {
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+.detailcheck {
+    font-size: 25px;
+}
+
+.tombol-detail {
+    color: #fff;
+    background-color: #FAA20A;
+    border: #FAA20A solid 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px ;
+}
+.tombol-detail:hover {
+    color: #fff;
+    background-color: #b37100;
+    border: #b37100 solid 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px ;
+}
+
+
+/* pesanan */
+
+/* .pesanan-atas {
+    border: #999 solid 1px;
+
+} */
+
+.alamat-pesanan p {
+    color: #888;
+    margin-top: -10px ;
+    max-width: 500px;
+}
+.pesanan-voucher {
+    display: flex;
+    justify-content: space-around;
+    border: #000 solid 1px;
+    padding: 20px 20px 5px 20px;
+    border-radius: 10px;
+}
+
+.pesanan-voucher:hover {
+    border: #FAA20A solid 1px;
+}
+
+.pesanan-pembayaran {
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: auto;
+}
+
+.pembayaran-btn button {
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+    border: #FAA20A solid 1px;
+    border-radius: 10px;
+    background-color: #FAA20A;
+    color: #fff;
+    font-size: 20px;
+}
+
+.pembayaran-btn button:hover {
+    border: #b37100 solid 1px;
+    background-color: #b37100;
+}
+
+
+.pesanan-saya-btn button {
+    margin: 0px 0px 0px 10px;
+}
+
+
+
+/* login */
+
+.login-btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.login-btn Button {
+    background-color: #FAA20A;
+    border: #FAA20A solid 2px;
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 0 30px 0 30px;
+    margin: 10px;
+}
+
+.login-btn Button:hover {
+    background-color: #FAA20A;
+    border: #FAA20A solid 2px;
+}
+
+
+.email-password {
+    display: grid;
+    margin: 20px;
+}
+
+.email-password input {
+    font-size: 20px;
+    margin: 10px 10px 10px 0px;
+    padding: 5px 20px ;
+    width: 400px;
+    border-radius: 20px;
+}
